@@ -1,0 +1,3 @@
+    A ordem de precedência dentro de cada grupo de operadores está descrita em cada arquivo
+porém, num todo, é interessante lembrar que primeiro são resolvidos todos os aritméticos,
+(e atribuições caso levem um aritmético junto), depois os relacionais e só então os lógicos.

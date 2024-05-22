@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+
+.container{
+    max-width: 1080px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-box{
+    background-color: limegreen;
+    max-width: 420px;
+    margin: 64px auto 0;
+    padding: 16px;
+    border: solid 8px rgb(38, 155, 38);
+    border-radius: 32px;
+    cursor: pointer;
+    transition: all .6s linear;
+}
+
+.yellow-box{
+    background-color: rgb(220, 203, 20);
+    border: solid 8px rgb(154, 126, 15);
+    transition: all .6s linear;
+}
+
+.blue-box{
+    background-color: rgb(20, 20, 220);
+    border: solid 8px rgb(15, 24, 154);
+    transition: all .6s linear;
+}
+
+.title{
+    margin-bottom: 8px;
+}
