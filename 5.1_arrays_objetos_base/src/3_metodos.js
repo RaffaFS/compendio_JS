@@ -25,7 +25,7 @@ meuArray.shift()            // Remove o primeiro item do array e retorna ele se 
 meuArray.pop()              // Remove o último item do array e retorna ele se em um algoritmo ou const/let
 meuArray.concat(mA2, 7)     // Concatena os valores do array target com os demais valores soltos ou de arrays, em um novo array
 meuArray.splice(2, 1)       // A partir do índice passado na primeira posição (2), remove o mesmo número de elementos em ordem
-                            // que o número passado na segunda posição (4)
+                            // que o número passado na segunda posição (1)
 meuArray.slice(2,3)         // A partir do índice passado na primeira posição (2), mantém a quantidade de elementos igual ao
                             // número passado na segunda posição (3)
 
