@@ -59,10 +59,10 @@ function testar2(){
             }
         }, tempo)
     })
-    promessa.then((retorno) => {
+    promessa.then(retorno => {
         frase.innerText = retorno
     })
-    promessa.catch((retorno) => {
+    promessa.catch(retorno => {
         frase.innerText = retorno
     })
     frase.innerText = 'Processando...'
@@ -92,10 +92,10 @@ let promessa = new Promise((resolve, reject) => {
         reject('falha')
     }
 })
-promessa.then((retorno) => {
+promessa.then(retorno => {
     retorno
 })
-promessa.catch((retorno) => {
+promessa.catch(retorno => {
     retorno
 })
 

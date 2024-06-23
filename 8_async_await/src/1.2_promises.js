@@ -12,10 +12,10 @@ btn2.addEventListener('click', testar)
 function testar(){
     frase.innerText = 'Processando...'
     promessa()
-    .then((retorno) => {
+    .then(retorno => {
         frase.innerText = retorno
     })
-    .catch((retorno) => {
+    .catch(retorno => {
         frase.innerText = retorno
     })
 }
