@@ -28,7 +28,7 @@ fetch('https://api.example.com/data', {
     integrity: 'sha256-abcdef'                      // Verificar a integridade dos recursos baixados usando sub-resource integrity (SRI).
 })
     .then(response => response.json())
-    .then(data => console.log(data))
+    .then(data => console.log(data))                
     .catch(error => console.error('Error:', error));
 
 // Esse acima é um exemplo com todas as configurações de um fetch setadas, não 
